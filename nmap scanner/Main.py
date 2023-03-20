@@ -52,6 +52,6 @@ elif resp == '3':
     print(scanner.scaninfo())
     print("Ip Status: ", scanner[Ip_Address].state())
     print(scanner[Ip_Address].all_protocols())
-    print("open ports", scanner[Ip_Address]['tcp'].keys())
+    print("open ports", scanner[Ip_Address]['Comprehensive'].keys())
 elif resp >= '4':
     print("Please enter a valid option")
